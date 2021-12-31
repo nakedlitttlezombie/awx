@@ -1,6 +1,5 @@
-
-	- hosts: all
-	  vars_files:
-	    - vars/main.yml
-	  roles:
-	    - stancel.update-servers
+    - hosts: all
+      vars_files:
+        - vars/main.yml
+      roles:
+        - stancel.update-servers
